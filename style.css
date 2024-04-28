@@ -55,9 +55,9 @@ body{
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50px;
   position: relative;
-  width: 659px;
+  width: 650px;
   height: 90px;
-  border: 1px solid white;
+  border: 0.8px solid white;
   /* rgba(255, 255, 255, 0.2) */
  }
  .clicked{
@@ -83,7 +83,7 @@ body{
  .searchBox:focus-within {
   background-color: rgba(2, 2, 2, 0.1); 
   /* Change to your desired background color */
-  border: 2px solid white;
+  border: 1.5px solid white;
 }
  .searchButton {
    font-family: Inter;
