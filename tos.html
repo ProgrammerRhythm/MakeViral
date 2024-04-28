@@ -101,66 +101,6 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
-      // JavaScript to continuously loop through images
-      const carousel = document.querySelector(".carousel");
-      let scrollAmount = 1;
-
-      function loop() {
-        // Move images by the scroll amount
-        carousel.scrollLeft += scrollAmount;
-
-        // If scrolled to the end, reset to the beginning
-        if (
-          carousel.scrollLeft >=
-          carousel.scrollWidth - carousel.clientWidth
-        ) {
-          carousel.scrollLeft = 0;
-        }
-      }
-
-      // Set interval to run the loop function every 10 milliseconds
-      setInterval(loop, 10);
-    function smoothScrollTo(targetId) {
-    const targetElement = document.getElementById(targetId);
-    if (targetElement) {
-        // Calculate the distance to scroll
-        const offsetTop = targetElement.offsetTop;
-
-        // Scroll smoothly to the target element
-        window.scrollTo({
-            top: offsetTop,
-            behavior: 'smooth'
-        });
-    }
-  }
-// }function smoothScrollTo2(targetId) {
-//     const targetElement = document.getElementById(targetId);
-//     if (targetElement) {
-//         // Calculate the distance to scroll
-//         const offsetTop = targetElement.offsetTop;
-
-//         // Scroll smoothly to the target element after 17 seconds
-//         setTimeout(() => {
-//             window.scrollTo({
-//                 top: offsetTop,
-//                 behavior: 'smooth'
-//             });
-//         }, 17000); // 17 seconds in milliseconds
-//     }
-// }
-
     </script>
-    <script src="main.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script>
-      // JavaScript to add style when input box is clicked
-      document.getElementById('searchInput').addEventListener('click', function() {
-        this.classList.add('clicked'); // Add a class when clicked
-      });
-      </script>
 </body>
 </html>
