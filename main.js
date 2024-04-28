@@ -229,7 +229,7 @@ document.getElementById("searchButton").addEventListener("click", function () {
       }
 
       // Check if the domain belongs to a valid platform
-      var validPlatforms = ["facebook", "instagram", "tiktok", "youtube"];
+      var validPlatforms = ["facebook.com", "instagram.com", "tiktok.com", "youtube.com"];
       var isValidURL = validPlatforms.some(platform => domain.includes(platform));
       console.log("isValidURL:", isValidURL); // Log the isValidURL for debugging
 
@@ -318,7 +318,7 @@ document.getElementById("searchButton").addEventListener("click", function () {
               var randomNumber;
               if (views <= 10) {
                   // If views reach 10 or more, generate randomNumber between 10 and 12
-                  randomNumber = Math.ceil(Math.random() * 3) + 9; // Random number between 10 and 12
+                  randomNumber = Math.ceil(Math.random() * 3) + 8; // Random number between 10 and 12
               } else {
                   // If views are less than 10, generate randomNumber between 0 and 10
                   randomNumber = Math.ceil(Math.random() * 10); // Random number between 0 and 10
