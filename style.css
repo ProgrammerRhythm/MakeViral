@@ -81,12 +81,22 @@ body{
    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
    display: none;
  }
- .searchBox:focus-within {
+ @keyframes border-round {
+  from {
+    border-radius: 0%;
+  }
+  to {
+    border-radius: 50%;
+  }
+}
+
+searchBox:focus-within {
   background-color: rgba(2, 2, 2, 0.4);
   border: 1px solid rgba(37,243,237, 0.5);
   animation-name: border-round;
   animation-duration: 0.5s;
   animation-fill-mode: forwards; /* Keeps the style set by the last keyframe */
+
 }
  .searchButton {
    font-family: Inter;
