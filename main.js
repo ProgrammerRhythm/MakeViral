@@ -244,6 +244,36 @@ document.getElementById("searchButton").addEventListener("click", function () {
           return; // Stop execution if the URL is empty or invalid
       }
 
+
+
+
+      
+
+document.getElementById("searchButton2").addEventListener("click", function () {
+  // Check if the button has been clicked already
+  if (!buttonClicked) {
+    // Your existing code here...
+
+    // After the existing code has executed, change the button text and functionality
+    this.textContent = 'Refresh';
+    this.removeEventListener('click', arguments.callee);
+    this.addEventListener('click', function() {
+      location.reload();
+    });
+
+    // Set the variable to true to indicate the button has been clicked
+    buttonClicked = true;
+  }
+});
+
+
+
+
+
+
+
+
+      
       // Proceed with loading animation and fetching data
       var loaderFill = document.querySelector(".loader-fill");
       var percentageText = document.querySelector(".percentage");
