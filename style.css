@@ -386,7 +386,7 @@ body{
   justify-content:center;
   align-items: center;
   flex-direction: column;
-  border: 1.5px dotted rgba(21, 143, 139, 0.7);
+  border: 2px dotted rgba(21, 143, 139, 0.7);
   border-radius: 10px;
   background: rgba(17, 28, 46, 1);
   color: white;
