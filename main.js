@@ -335,16 +335,6 @@ document.getElementById("searchButton").addEventListener("click", function () {
   }
 });
 
-function firstClick() {
-  // Change the button text to 'Refresh'
-  document.getElementById('searchButton').textContent = 'Refresh';
-
-  // Change the onclick event to refresh the page
-  document.getElementById('searchButton').onclick = function() {
-    location.reload();
-  };
-}
-
    
 
 
