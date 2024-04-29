@@ -90,7 +90,7 @@ fetch('https://randomuser.me/api/?results=15')
           }
     
           // Check if the domain belongs to a valid platform
-          var validPlatforms = ["facebook", "instagram", "tiktok", "youtube"];
+          var validPlatforms = ["facebook.com", "instagram.com", "tiktok.com", "youtube.com"];
           var isValidURL = validPlatforms.some(platform => domain.includes(platform));
           console.log("isValidURL:", isValidURL); // Log the isValidURL for debugging
     
