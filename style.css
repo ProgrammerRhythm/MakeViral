@@ -124,7 +124,7 @@ body{
  /*hover effect*/
  button:hover {
    color: #fff;
-   background-color: #1A1A1A;
+   background-color: #FE2C55;
    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
    transform: translateY(-3px);
  }
