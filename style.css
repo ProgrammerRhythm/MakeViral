@@ -58,7 +58,7 @@ body{
   position: relative;
   width: 650px;
   height: 90px;
-  border: 1px solid rgba(255,255,255,0.5);
+  border: 1px solid rgba(255,255,255,0.4);
   /* rgba(255, 255, 255, 0.2) */
  }
  .clicked{
