@@ -421,7 +421,7 @@ body{
   border: 2px dotted rgba(21, 143, 139, 0.7);
   border-radius: 10px;
   background: rgba(17, 28, 46, 1);
-  padding: 24px;
+  padding: 32px;
 }
 .offerBox{
   display: flex;
