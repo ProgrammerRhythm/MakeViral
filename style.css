@@ -82,9 +82,11 @@ body{
    display: none;
  }
  .searchBox:focus-within {
-  background-color: rgba(2, 2, 2, 0.4); 
-  /* Change to your desired background color */
-  border: 1.5px solid rgba(37,243,237, 0.3);
+  background-color: rgba(2, 2, 2, 0.4);
+  border: 1px solid rgba(37,243,237, 0.5);
+  animation-name: border-round;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards; /* Keeps the style set by the last keyframe */
 }
  .searchButton {
    font-family: Inter;
