@@ -92,11 +92,11 @@ body{
 
 searchBox:focus-within {
   background-color: rgba(2, 2, 2, 0.4);
-  border: 1px solid rgba(37,243,237, 0.5);
+  border: 1px solid rgba(37,243,237,);
   animation-name: border-round;
   animation-duration: 0.5s;
   animation-fill-mode: forwards; /* Keeps the style set by the last keyframe */
-
+}
 }
  .searchButton {
    font-family: Inter;
