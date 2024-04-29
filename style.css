@@ -84,7 +84,7 @@ body{
  .searchBox:focus-within {
   background-color: rgba(2, 2, 2, 0.1); 
   /* Change to your desired background color */
-  border: 1.5px solid 25F3ED;
+  border: 1.5px solid rgba(37,243,237);
 }
  .searchButton {
    font-family: Inter;
