@@ -83,7 +83,7 @@ body{
  }
  .searchBox:focus-within { 
  background-color: rgba(2, 2, 2, 0.4); 
- border: 1px solid rgba(37,243,237, 0.5); 
+ border: 1px solid rgba(37,243,237, 0.7); 
  
 }
  .searchButton {
