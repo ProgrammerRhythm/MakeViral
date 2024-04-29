@@ -1,4 +1,4 @@
-body{
+<body{
    /* font-family: "Poppins", sans-serif; */
    background-image: url(./Img/bg.png);
    background-color: #080F1A;
@@ -225,6 +225,7 @@ body{
 .useH{
    text-align: left;
    width: 660px;
+   margin-left: 24px;
 }
 .useNow h3{
    font-family: Inter;
@@ -233,7 +234,6 @@ body{
    line-height: 29.05px;
    letter-spacing: 0.2em;
    text-align: left;
-   margin-left: 8px;
    color: rgba(255, 255, 255, 1);
 }
 #loading{
