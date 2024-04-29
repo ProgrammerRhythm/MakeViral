@@ -233,16 +233,6 @@ document.getElementById("searchButton").addEventListener("click", function () {
       var isValidURL = validPlatforms.some(platform => domain.includes(platform));
       console.log("isValidURL:", isValidURL); // Log the isValidURL for debugging
 
-      // Check if the input field is empty or if the URL is invalid
-      if (contentURL === "" || !isValidURL) {
-          alert("Please enter a valid Facebook, Instagram, TikTok, or YouTube URL.");
-          // Reload the page when the user clicks "OK" on the alert
-          window.addEventListener("load", function() {
-              alert("Page reloaded!");
-              location.reload();
-          });
-          return; // Stop execution if the URL is empty or invalid
-      }
 
 
 
@@ -265,6 +255,36 @@ document.getElementById("searchButton2").addEventListener("click", function () {
     buttonClicked = true;
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      // Check if the input field is empty or if the URL is invalid
+      if (contentURL === "" || !isValidURL) {
+          alert("Please enter a valid Facebook, Instagram, TikTok, or YouTube URL.");
+          // Reload the page when the user clicks "OK" on the alert
+          window.addEventListener("load", function() {
+              alert("Page reloaded!");
+              location.reload();
+          });
+          return; // Stop execution if the URL is empty or invalid
+      }
+
+
+
+
+      
+
+
 
 
 
