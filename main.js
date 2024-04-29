@@ -233,41 +233,7 @@ document.getElementById("searchButton").addEventListener("click", function () {
       var isValidURL = validPlatforms.some(platform => domain.includes(platform));
       console.log("isValidURL:", isValidURL); // Log the isValidURL for debugging
 
-
-
-
-
       
-
-document.getElementById("searchButton2").addEventListener("click", function () {
-  // Check if the button has been clicked already
-  if (!buttonClicked) {
-    // Your existing code here...
-
-    // After the existing code has executed, change the button text and functionality
-    this.textContent = 'Refresh';
-    this.removeEventListener('click', arguments.callee);
-    this.addEventListener('click', function() {
-      location.reload();
-    });
-
-    // Set the variable to true to indicate the button has been clicked
-    buttonClicked = true;
-  }
-});
-
-
-
-
-
-
-
-
-
-
-
-      
-
       // Check if the input field is empty or if the URL is invalid
       if (contentURL === "" || !isValidURL) {
           alert("Please enter a valid Facebook, Instagram, TikTok, or YouTube URL.");
@@ -278,20 +244,6 @@ document.getElementById("searchButton2").addEventListener("click", function () {
           });
           return; // Stop execution if the URL is empty or invalid
       }
-
-
-
-
-      
-
-
-
-
-
-
-
-
-
 
       
       // Proceed with loading animation and fetching data
