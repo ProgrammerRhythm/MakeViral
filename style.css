@@ -42,7 +42,7 @@ body{
 }
 .content p{
    font-family: Inter;
-   font-size: 18px;
+   font-size: 16px;
    font-weight: 400;
    line-height: 23.33px;
    text-align: center;
@@ -565,6 +565,7 @@ iframe{
   }
   .useH h3 span {
     margin: 0px 10px 0 0;
+    color: white;
   }
   .content{
     margin-top: 50px;
