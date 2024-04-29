@@ -127,11 +127,12 @@ body {
    color: #fff;
    background-color: #a3a0a1;
    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
-   transform: translateY(-3px);
+   transform: translateY(-2px);
  }
  /*button pressing effect*/
  button:active {
    box-shadow: none;
+   background-color: #a3a0a1;
    transform: translateY(0);
  }
  
