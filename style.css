@@ -67,7 +67,7 @@ body {
  }
  .searchButton2{
   font-family: Inter;
-   font-size: 18px;
+   font-size: 16px;
    font-weight: 600;
    line-height: 21.78px;
    text-align: left;
@@ -89,7 +89,7 @@ body {
 }
  .searchButton {
    font-family: Inter;
-   font-size: 18px;
+   font-size: 16px;
    font-weight: 600;
    line-height: 21.78px;
    text-align: left;
@@ -109,7 +109,7 @@ body {
  }
  .verifyButton{
   font-family: Inter;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 21.78px;
   color: rgba(10, 15, 26, 1);
@@ -132,7 +132,6 @@ body {
  /*button pressing effect*/
  button:active {
    box-shadow: none;
-   background-color: #a3a0a1;
    transform: translateY(0);
  }
  
