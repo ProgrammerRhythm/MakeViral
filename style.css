@@ -654,15 +654,15 @@ iframe{
   }
   .Dbox{
     display:flex;
-    justify-content: left;
+    justify-content: center;
     width: 415px;
-    margin-top: 6px;
+    margin-top: 10px;
   }
   .Qbox{
     width: 115px;
     height: 33px;
     background-color: rgba(21, 201, 18, 0.117);
-    margin: 10px;
+    margin: 4px!important;
     border-radius: 10px;
     display: flex;
     justify-content: center;
