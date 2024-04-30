@@ -580,8 +580,18 @@ iframe{
   .useH {
     text-align: left;
     width: 350px;
-    font-size: 20px;
+    
   }
+   .useNow h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 29.05px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 16px 0;
+}
     iframe{
       width: 350px;
       height: 197px;
