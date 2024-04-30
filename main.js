@@ -157,8 +157,8 @@ fetch('https://randomuser.me/api/?results=15')
                percent++;
                percentageText.textContent = percent + "%";
            }
-       }, 150);
-   }, 1200);
+       }, 200);
+   }, 1300);
 
    // Start loader animation after a brief delay
    setTimeout(function () {
@@ -270,7 +270,7 @@ document.getElementById("searchButton").addEventListener("click", function () {
       setTimeout(function () {
           document.getElementById('human').style.display = "block";
           document.getElementById('useNow').style.display = "none";
-      }, 17500);
+      }, 30000);
       setTimeout(function () {
         document.getElementById('Qbox1').style.display = "block";
     }, 2500);
@@ -291,7 +291,7 @@ document.getElementById("searchButton").addEventListener("click", function () {
                   top: offsetTop,
                   behavior: 'smooth'
               });
-          }, 17000); // 17 seconds in milliseconds
+          }, 30000); // 17 seconds in milliseconds
       }
       // Reset loader animation
       loaderFill.style.animation = "none";
@@ -309,8 +309,8 @@ document.getElementById("searchButton").addEventListener("click", function () {
                   percent++;
                   percentageText.textContent = percent + "%";
               }
-          }, 150);
-      }, 1200);
+          }, 250);
+      }, 1300);
 
       // Start loader animation after a brief delay
       setTimeout(function () {
