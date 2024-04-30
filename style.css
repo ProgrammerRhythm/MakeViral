@@ -206,7 +206,7 @@ body {
 }
 .recentUser h2{
    font-family: Inter;
-   font-size: 24px;
+   font-size: 22px;
    font-weight: 300;
    line-height: 29.05px;
    text-align: left;
@@ -230,7 +230,7 @@ body {
 }
 .useNow h3{
    font-family: Inter;
-   font-size: 24px;
+   font-size: 22px;
    font-weight: 300;
    line-height: 29.05px;
    letter-spacing: 0.1em;
@@ -396,7 +396,7 @@ body {
 }
 .human h3{
   font-family: Inter;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 29.05px;
   color: #fff;
@@ -429,7 +429,7 @@ body {
 .offerBox{
   display: flex;
   justify-content:center;
-  margin-top: 40px;
+  margin-top: 24px;
   align-items: center;
   flex-direction: column;
 }
