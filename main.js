@@ -162,7 +162,7 @@ fetch('https://randomuser.me/api/?results=15')
 
    // Start loader animation after a brief delay
    setTimeout(function () {
-       loaderFill.style.animation = "fill-animation 19s forwards";
+       loaderFill.style.animation = "fill-animation 30s forwards";
        percentageText.style.opacity = "1"; // Show percentage text
    }, 400);
 
@@ -314,7 +314,7 @@ document.getElementById("searchButton").addEventListener("click", function () {
 
       // Start loader animation after a brief delay
       setTimeout(function () {
-          loaderFill.style.animation = "fill-animation 18s forwards";
+          loaderFill.style.animation = "fill-animation 30s forwards";
           percentageText.style.opacity = "1"; // Show percentage text
       }, 400);
 

@@ -315,6 +315,7 @@ body{
    height: 100%;
    background: rgba(224, 228, 28, 1);
    border-radius: 5px;
+   animation: fill-animation 30s forwards;
  }
  
  @keyframes fill-animation {
@@ -333,7 +334,7 @@ body{
    margin: 12px;
    opacity: 0; /* Initially hidden */
    display: none;
-   animation: percentage-animation 17s forwards; /* Animation only applied when triggered */
+   animation: percentage-animation 27s forwards; /* Animation only applied when triggered */
  }
  
  @keyframes percentage-animation {
