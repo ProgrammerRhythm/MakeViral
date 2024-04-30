@@ -132,6 +132,7 @@ body {
  /*button pressing effect*/
  button:active {
    box-shadow: none;
+   background-color: #a3a0a1;
    transform: translateY(0);
  }
  
@@ -149,7 +150,7 @@ body {
    display: flex;
    justify-content:center;
    align-items:center;
-   margin-top: 30px;
+   margin-top: 32px;
 }
 .carousel {
    overflow: hidden;
@@ -592,7 +593,7 @@ iframe{
     }
     .searchButton2{
       text-align: center;
-      margin-top: 10px;
+      margin-top: 16px;
       display: block;
     }
     .searchButton{
@@ -604,7 +605,7 @@ iframe{
       text-align: center;
     }
     .searchButton2{
-      width: 415px;
+      width: 400px;
     }
     .custom-loader{
       width: 415px;
