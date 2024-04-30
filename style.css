@@ -652,6 +652,32 @@ iframe{
     width: 415px;
     height: 75px;
   }
+  .Dbox{
+    display:flex;
+    justify-content: left;
+    width: 415px;
+    margin-top: 6px;
+  }
+  .Qbox{
+    width: 115px;
+    height: 33px;
+    background-color: rgba(21, 201, 18, 0.117);
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+  }
+  .Qbox h6{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+     margin: 5px;
+     margin-left: 2px;
+     color: rgba(21, 201, 18, 1);
+}
   .useNow{
     margin-top: 50px;
   }
@@ -960,6 +986,26 @@ iframe{
     position: relative;
     width: 350px;
 }
+.Qbox{
+  width: 105px;
+  height: 33px;
+  background-color: rgba(21, 201, 18, 0.117);
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+}
+.Qbox h6{
+  font-family: Inter;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: left;
+   margin: 5px;
+   margin-left: 2px;
+   color: rgba(21, 201, 18, 1);
+}
 } 
 @media screen and (max-width: 355px) {
   .useH {
@@ -993,6 +1039,26 @@ iframe{
 }
 } 
 @media screen and (max-width: 335px) {
+  .Qbox{
+    width: 90px;
+    height: 33px;
+    background-color: rgba(21, 201, 18, 0.117);
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+  }
+  .Qbox h6{
+    font-family: Inter;
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+     margin: 5px;
+     margin-left: 2px;
+     color: rgba(21, 201, 18, 1);
+  }
   .useH {
     text-align: left;
     width: 300px;
