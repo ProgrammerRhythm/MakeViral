@@ -391,3 +391,4 @@ document.getElementById("searchButton").addEventListener("click", function () {
             // Handle error here, for example, display an error message to the user
         });
   });
+
