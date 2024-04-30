@@ -1,26 +1,16 @@
-body {
-   background-color: #080F1A!important;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center center; 
-   background-size: cover;
-   background-origin: center;
-  
+body{
+  /* font-family: "Poppins", sans-serif; */
+  background-image: url(./Img/bg.png);
+  background-color: #080F1A;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-origin: center;
+  background-position: center center; 
 }
-.ballColorDiv{
-  filter: blur(8px);
-  -webkit-filter: blur(350px);
-  background-color: #25F4EE;
-  position: fixed;
-  backdrop-filter: blur(10px);
-  width: 413px;
-  height: 458px;
-  top: 300px;
-  left: 500px;
-  border-radius: 50%;
-  z-index: -1;
-}
-.ballColorDiv2{
+
+/* .ballColorDiv2{
   filter: blur(8px);
   -webkit-filter: blur(350px);
   background-color: #FE2C55;
@@ -32,7 +22,7 @@ body {
   right: 500px;
   border-radius: 50%;
   z-index: -2;
-}
+} */
 
 .ballColorDiv{
   filter: blur(8px);
