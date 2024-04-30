@@ -132,7 +132,6 @@ body {
  /*button pressing effect*/
  button:active {
    box-shadow: none;
-   background-color: #a3a0a1;
    transform: translateY(0);
  }
  
@@ -215,7 +214,7 @@ body {
    margin: 35px 0;
 }
 .recentUser{
-   margin-bottom: 90px;
+   margin-bottom: 48px;
 }
 .useNow{
    display: flex;
