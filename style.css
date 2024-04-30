@@ -886,8 +886,8 @@ iframe{
     width: 300px;
   }
   iframe{
-    width: 300px;
-    height: 210px;
+    width: 284px;
+    height: 200px;
   }
   .searchButton2{
     width: 300px;
@@ -911,7 +911,7 @@ iframe{
 }
 .offer h3 {
   font-family: Inter;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 29.05px;
   color: #fff;
