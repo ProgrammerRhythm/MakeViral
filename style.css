@@ -334,7 +334,7 @@ body{
    margin: 12px;
    opacity: 0; /* Initially hidden */
    display: none;
-   animation: percentage-animation 27s forwards; /* Animation only applied when triggered */
+   animation: percentage-animation 29s forwards; /* Animation only applied when triggered */
  }
  
  @keyframes percentage-animation {
