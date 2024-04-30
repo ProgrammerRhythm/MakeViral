@@ -403,8 +403,9 @@ body {
   margin: 0;
 }
 .human p{
-  margin-left: 10px;
+  margin-left: 24px;
   color: rgba(204, 204, 204, 1);
+  margin-down: 0px;
 }
 .offer h3{
   font-family: Inter;
