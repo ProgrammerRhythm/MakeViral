@@ -567,6 +567,7 @@ iframe{
     font-size: 16px;
   }
   .useH h3 span {
+    font-size: 16px
     margin: 16px 10px 0 0;
     color: white;
   }
@@ -700,6 +701,11 @@ iframe{
   .useH {
     text-align: left;
     width: 410px;
+  }
+   .useH h3 span {
+    font-size: 16px
+    margin: 16px 10px 0 0;
+    color: white;
   }
   iframe{
     width: 410px;
