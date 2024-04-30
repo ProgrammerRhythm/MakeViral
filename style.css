@@ -893,6 +893,11 @@ iframe{
     text-align: left;
     width: 300px;
   }
+   .useH h3 span {
+    font-size: 16px
+    margin: 16px 10px 0 0;
+    color: white;
+  }
   iframe{
     width: 284px;
     height: 200px;
