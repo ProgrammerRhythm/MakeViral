@@ -289,7 +289,7 @@ body{
    justify-content:center;
    align-items: center;
    margin-right: 65px;
-   margin-top: 25px;
+   margin-top: 5px;
    font-weight: 700;
 }
 .loader-container {
@@ -504,6 +504,41 @@ iframe{
 }
 #human{
   display: none;
+}
+.Qbox{
+  width: 142px;
+  height: 33px;
+  background-color: rgba(21, 201, 18, 0.117);
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+}
+.Qbox h6{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+     margin: 4px;
+     margin-left: 4px;
+     color: rgba(21, 201, 18, 1);
+}
+#Qbox1{
+  display: none;
+}
+#Qbox2{
+  display: none;
+}
+#Qbox3{
+  display: none;
+}
+.Dbox{
+  display:flex;
+  justify-content: left;
+  width: 650px;
+  margin-top: 6px;
 }
 @media screen and (max-width: 425px) {
  }  
