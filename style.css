@@ -580,6 +580,7 @@ iframe{
   .useH {
     text-align: left;
     width: 350px;
+    font-size: 20px;
   }
     iframe{
       width: 350px;
