@@ -736,7 +736,6 @@ iframe{
     margin: 23px;
     opacity: 0;
     display: none;
-    animation: percentage-animation 17s forwards;
 }
     .loading{
       margin: 0;
@@ -946,7 +945,7 @@ iframe{
   margin: 23px 0;
   opacity: 0;
   display: none;
-  animation: percentage-animation 17s forwards;
+  animation: percentage-animation 29s forwards;
 }
 } 
 @media screen and (max-width: 380px) {
@@ -957,7 +956,7 @@ iframe{
     margin: 23px 0;
     opacity: 0;
     display: none;
-    animation: percentage-animation 17s forwards;
+    animation: percentage-animation 29s forwards;
 }
   .useH {
     text-align: left;
