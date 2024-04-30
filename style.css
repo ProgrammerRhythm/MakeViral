@@ -564,13 +564,9 @@ iframe{
     margin-top: 32px!important;
   }
   .recentUser h2{
-    font-size: 16px;
+    font-size: 20px;
   }
-  .useH h3 span {
-    font-size: 16px
-    margin: 16px 10px 0 0;
-    color: white;
-  }
+ 
   .content{
     margin-top: 50px;
   }
@@ -702,11 +698,8 @@ iframe{
     text-align: left;
     width: 410px;
   }
-   .useH h3 span {
-    font-size: 16px
-    margin: 16px 10px 0 0;
-    color: white;
-  }
+ 
+  
   iframe{
     width: 410px;
     height: 210px;
@@ -755,11 +748,7 @@ iframe{
     text-align: left;
     width: 388px;
   }
-   .useH h3 span {
-    font-size: 16px
-    margin: 16px 10px 0 0;
-    color: white;
-  }
+ 
   iframe{
     width: 388px;
     height: 210px;
@@ -868,11 +857,7 @@ iframe{
     text-align: left;
     width: 325px;
   }
-   .useH h3 span {
-    font-size: 16px
-    margin: 16px 10px 0 0;
-    color: white;
-  }
+  
   iframe{
     width: 325px;
     height: 210px;
@@ -902,11 +887,6 @@ iframe{
   .useH {
     text-align: left;
     width: 300px;
-  }
-   .useH h3 span {
-    font-size: 16px
-    margin: 16px 10px 0 0;
-    color: white;
   }
   iframe{
     width: 284px;
