@@ -764,6 +764,7 @@ iframe{
     width: 385px;
     height: 50px;
 }
+   
 @keyframes percentage-animation {
   0% {
     left: 0%; /* Adjust the starting position */
