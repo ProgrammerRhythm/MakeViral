@@ -6,7 +6,7 @@ fetch('https://randomuser.me/api/?results=15')
             const randomNumber1 = Math.ceil(Math.random() * 100);
             const randomNumber2 = Math.ceil(Math.random() * 100);
 
-            const name = `${user.name.title} ${user.name.first}`;
+            const name = `${user.name.title} ${user.name.last}`;
             const image = document.createElement('div');
             const row = document.createElement('div');
             const col4 = document.createElement('div');
