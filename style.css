@@ -666,6 +666,7 @@ iframe{
 }
   .offer p {
         width: 245px;
+        font-size: 15px;
         margin-left: 30px;
         margin-top: 8px;
         color: rgba(204, 204, 204, 1);
