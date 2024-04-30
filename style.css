@@ -664,6 +664,10 @@ iframe{
     color: #fff;
     margin: -16px;
 }
+   .offer p {
+    margin-left: 30px;
+    color: rgba(204, 204, 204, 1);
+}
   .human{
     margin-top: 32px;
   }
