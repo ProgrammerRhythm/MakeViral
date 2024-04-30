@@ -665,12 +665,14 @@ iframe{
     margin: -16px;
 }
   .offer p {
-        width: 240px;
+        width: 245px;
         margin-left: 30px;
         margin-top: 8px;
         color: rgba(204, 204, 204, 1);
         line-height: 20px;
         font-weight: 300;
+        margin-bottom: 0px !important;
+
 }
   .human{
     margin-top: 32px;
