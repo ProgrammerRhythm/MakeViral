@@ -499,6 +499,9 @@ body{
 .OfferBoxMain{
   display: none;
 }
+#counter{
+  text-align: right;
+}
 iframe{
   width: 655px;
   height: 361px;

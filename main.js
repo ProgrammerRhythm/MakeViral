@@ -59,7 +59,7 @@ fetch('https://randomuser.me/api/?results=15')
     }
     var buttonClicked = false;
     document.getElementById("searchButton2").addEventListener("click", function () {
-       // Check if the button has been clicked already
+     // Check if the button has been clicked already
   if (!buttonClicked) {
     // Set the variable to true to indicate the button has been clicked
    var contentURL = document.getElementById("searchInput").value.trim().toLowerCase();
@@ -118,7 +118,7 @@ fetch('https://randomuser.me/api/?results=15')
    setTimeout(function () {
        document.getElementById('human').style.display = "block";
        document.getElementById('useNow').style.display = "none";
-   }, 17500);
+   }, 30000);
    setTimeout(function () {
      document.getElementById('Qbox1').style.display = "block";
  }, 2500);
@@ -139,7 +139,7 @@ fetch('https://randomuser.me/api/?results=15')
                top: offsetTop,
                behavior: 'smooth'
            });
-       }, 17000); // 17 seconds in milliseconds
+       }, 30000); // 17 seconds in milliseconds
    }
    // Reset loader animation
    loaderFill.style.animation = "none";
@@ -157,7 +157,7 @@ fetch('https://randomuser.me/api/?results=15')
                percent++;
                percentageText.textContent = percent + "%";
            }
-       }, 200);
+       }, 250);
    }, 1300);
 
    // Start loader animation after a brief delay
@@ -390,5 +390,39 @@ document.getElementById("searchButton").addEventListener("click", function () {
             console.error('Error fetching data:', error);
             // Handle error here, for example, display an error message to the user
         });
+        
   });
+  document.addEventListener("DOMContentLoaded", function () {
+    const counter = document.getElementById("counter");
+    const startButton = document.getElementById("verifyButton");
 
+    let seconds = 0;
+    let intervalId;
+
+    function updateCounter() {
+      seconds++;
+      const minutes = Math.floor(seconds / 60);
+      const remainingSeconds = seconds % 60;
+      counter.textContent = `${pad(minutes)}:${pad(remainingSeconds)}`;
+    }
+
+    function pad(num) {
+      return num < 10 ? "0" + num : num;
+    }
+
+    function startCounter() {
+      intervalId = setInterval(updateCounter, 1000);
+    }
+
+    startButton.addEventListener("click", function () {
+      startCounter();
+      startButton.disabled = true; // Disable the button after starting
+        
+      setTimeout(function () {
+        document.getElementById('offerBox').style.display = "none";
+        document.getElementById('offerBox').style.display = "none";
+    }, 60000);
+
+
+    });
+  });
