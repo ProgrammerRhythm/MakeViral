@@ -232,9 +232,10 @@ body {
    font-size: 24px;
    font-weight: 400;
    line-height: 29.05px;
-   letter-spacing: 0.1em;
+   letter-spacing: 0.0em;
    text-align: left;
    color: rgba(255, 255, 255, 1);
+   margin: 35px 0;
 }
 #loading{
    display: none;
