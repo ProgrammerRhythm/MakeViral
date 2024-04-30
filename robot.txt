@@ -1,6 +1,11 @@
+# Allowing all robots complete access
 User-agent: *
+Disallow:
+
+# Disallowing access to specific directories
 Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /junk/
+
 
 Sitemap: https://viralboostviews.xyz/sitemap.xml
