@@ -670,6 +670,7 @@ iframe{
         margin-top: 8px;
         color: rgba(204, 204, 204, 1);
         line-height: 20px;
+        font-weight: 400;
 }
   .human{
     margin-top: 32px;
