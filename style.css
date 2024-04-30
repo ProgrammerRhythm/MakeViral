@@ -656,6 +656,14 @@ iframe{
   .offer{
     margin-top: 24px;
   }
+   .offer h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: #fff;
+    margin: -16px;
+}
   .human{
     margin-top: 32px;
   }
