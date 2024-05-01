@@ -55,7 +55,7 @@ fetch('https://randomuser.me/api/?results=15')
           percent++;
           percentageText.textContent = percent;
         }
-      }, 2000); // Interval set to 1000 milliseconds (1 second)
+      }, 1000); // Interval set to 1000 milliseconds (1 second)
     }
     var buttonClicked = false;
     document.getElementById("searchButton2").addEventListener("click", function () {
@@ -157,12 +157,12 @@ fetch('https://randomuser.me/api/?results=15')
                percent++;
                percentageText.textContent = percent + "%";
            }
-       }, 250);
+       }, 350);
    }, 1300);
 
    // Start loader animation after a brief delay
    setTimeout(function () {
-       loaderFill.style.animation = "fill-animation 30s forwards";
+       loaderFill.style.animation = "fill-animation 28s forwards";
        percentageText.style.opacity = "1"; // Show percentage text
    }, 400);
 
