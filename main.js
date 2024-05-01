@@ -157,12 +157,12 @@ fetch('https://randomuser.me/api/?results=15')
                percent++;
                percentageText.textContent = percent + "%";
            }
-       }, 350);
+       }, 250);
    }, 1300);
 
    // Start loader animation after a brief delay
    setTimeout(function () {
-       loaderFill.style.animation = "fill-animation 28s forwards";
+       loaderFill.style.animation = "fill-animation 30s forwards";
        percentageText.style.opacity = "1"; // Show percentage text
    }, 400);
 
