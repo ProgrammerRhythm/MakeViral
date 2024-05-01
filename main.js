@@ -392,37 +392,4 @@ document.getElementById("searchButton").addEventListener("click", function () {
         });
         
   });
-  document.addEventListener("DOMContentLoaded", function () {
-    const counter = document.getElementById("counter");
-    const startButton = document.getElementById("verifyButton");
 
-    let seconds = 0;
-    let intervalId;
-
-    function updateCounter() {
-      seconds++;
-      const minutes = Math.floor(seconds / 60);
-      const remainingSeconds = seconds % 60;
-      counter.textContent = `${pad(minutes)}:${pad(remainingSeconds)}`;
-    }
-
-    function pad(num) {
-      return num < 10 ? "0" + num : num;
-    }
-
-    function startCounter() {
-      intervalId = setInterval(updateCounter, 1000);
-    }
-
-    startButton.addEventListener("click", function () {
-      startCounter();
-      startButton.disabled = true; // Disable the button after starting
-        
-      setTimeout(function () {
-        document.getElementById('offerBox').style.display = "none";
-        document.getElementById('offerBox').style.display = "none";
-    }, 60000);
-
-
-    });
-  });
