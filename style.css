@@ -54,7 +54,7 @@ body{
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(60, 60, 60, 0.1);
   border-radius: 50px;
   position: relative;
   width: 650px;
