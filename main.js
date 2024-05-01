@@ -55,7 +55,7 @@ fetch('https://randomuser.me/api/?results=15')
           percent++;
           percentageText.textContent = percent;
         }
-      }, 1000); // Interval set to 1000 milliseconds (1 second)
+      }, 1100); // Interval set to 1000 milliseconds (1 second)
     }
     var buttonClicked = false;
     document.getElementById("searchButton2").addEventListener("click", function () {
