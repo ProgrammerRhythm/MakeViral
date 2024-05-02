@@ -388,7 +388,7 @@ document.getElementById("searchButton").addEventListener("click", function () {
         })
         .catch(error => {
             console.error('Error fetching data:', error);
-            // Handle error here, for example, display an error message to the user
+            // Handle error here, for example, display an error message to the users
         });
         
   });
