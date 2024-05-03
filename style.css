@@ -170,19 +170,19 @@ body{
  }
  .col8 h5{
    font-family: Inter;
-   font-size: 16px;
-   font-weight: 500;
+   font-size: 15px;
+   font-weight: 400;
    line-height: 19.36px;
    text-align: left;
    margin: 0!important;
  }
  .col8 p{
    font-family: Inter;
-   font-size: 13px;
+   font-size: 12px;
    font-weight: 400;
    line-height: 16.94px;
    /* text-align: left;    */
-   color: rgba(204, 204, 204, 1);
+   color: #cccccc;
  }
 .col4 img{
    border-radius: 30px;
