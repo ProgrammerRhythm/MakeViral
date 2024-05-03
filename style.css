@@ -786,6 +786,15 @@ iframe{
 }  
 
 @media screen and (max-width: 485px) {
+  .accordion-item-header-title{
+    font-family: Poppins;
+    line-height: 15px;
+    text-align: left;
+    color: white;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    margin: 0 !important;
+  }
   .offerH h3 {
     font-family: Inter;
     font-size: 14px;
