@@ -34,19 +34,19 @@ body{
 }
 .content h1{
    font-family: Poppins;
-   font-size: 48px;
+   font-size: 40px;
    font-weight: 700;
-   line-height: 59px;
+   line-height: 48px;
    text-align: center;
-   margin-bottom: 20px;
+   margin-bottom: 8px;
 }
 .content p{
    font-family: Inter;
    font-size: 16px;
    font-weight: 400;
-   line-height: 23.33px;
+   line-height: 24px;
    text-align: center;
-   color: #E5E5E5!important;
+   color: #CCCCCC!important;
 }
 .searchBox {
   display: flex;
@@ -169,19 +169,19 @@ body{
  }
  .col8 h5{
    font-family: Inter;
-   font-size: 16px;
-   font-weight: 500;
+   font-size: 15px;
+   font-weight: 400;
    line-height: 19.36px;
    text-align: left;
    margin: 0!important;
  }
  .col8 p{
    font-family: Inter;
-   font-size: 13px;
+   font-size: 12px;
    font-weight: 400;
    line-height: 16.94px;
    /* text-align: left;    */
-   color: rgba(204, 204, 204, 1);
+   color: #cccccc;
  }
 .col4 img{
    border-radius: 30px;
@@ -204,15 +204,14 @@ body{
     font-weight: 400;
     margin-bottom: 10px;
 }
-.recentUser h2{
+.recentUser h6{
    font-family: Inter;
-   font-size: 22px;
-   font-weight: 300;
+   font-size: 20px;
+   font-weight: 400;
    line-height: 29.05px;
    text-align: left;
    color: rgba(255, 255, 255, 1);
    margin: 35px 0;
-   letter-spacing: 0.1em;
 }
 .recentUser{
    margin-bottom: 100px;
@@ -228,12 +227,11 @@ body{
    text-align: left;
    width: 660px;
 }
-.useNow h3{
+.useNow h5{
    font-family: Inter;
-   font-size: 22px;
-   font-weight: 300;
+   font-size: 20px;
+   font-weight: 400;
    line-height: 29.05px;
-   letter-spacing: 0.1em;
    text-align: left;
    color: rgba(255, 255, 255, 1);
    margin: 16px 0;
@@ -404,7 +402,9 @@ body{
   margin: 0;
 }
 .human p{
+  font-size: 14px;
   margin-left: 32px;
+  margin-top: -18px;
   color: rgba(204, 204, 204, 1);
 }
 .offer h3{
@@ -801,11 +801,19 @@ iframe{
     color: #ffffff;
     margin-left: 5px;
 }
-  .useNow{
-    margin-top: 0px!important;
-  }
-  .recentUser h2{
+   .content h1{
+    font-family: Inter;
     font-size: 20px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+   }
+  .useNow{
+    margin-top: 16px!important;
+  }
+  .recentUser h6{
+    font-size: 18px;
+    font-weight: 300;
   }
  
   .content{
@@ -842,19 +850,18 @@ iframe{
      color: rgba(21, 201, 18, 1);
 }
   .useNow{
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .useH {
     text-align: left;
     width: 350px;
     
   }
-   .useNow h3 {
+   .useNow h5 {
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 29.05px;
-    letter-spacing: 0.1em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
     margin: 16px 8px;
@@ -980,7 +987,7 @@ iframe{
   }
   .content h1{
     font-family: Inter;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 29.05px;
     text-align: center;
