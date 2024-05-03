@@ -9,7 +9,9 @@ body{
   background-origin: center;
   background-position: center center; 
 }
-
+#newDiv{
+  display: none;
+}
 .navbar-toggler-icon{
   background-image: url(./Img/menu.png)!important;
 }

@@ -61,9 +61,10 @@ function resetAnimation() {
     document.getElementById('Qbox2').style.display = "none";
     document.getElementById('Qbox3').style.display = "none";
     document.getElementById('percentage').style.display = "none";
-
-
-
+    document.getElementById("newDiv").style.display = "none";
+    var offerBox = document.getElementById("offerBox");
+    offerBox.style.display = "block";
+    offerBox.innerHTML = "";
     var percentageText = document.querySelector(".percentage");
     percentageText.textContent = "0%";
     var loaderFill = document.querySelector(".loader-fill");
@@ -487,7 +488,7 @@ document.getElementById("verifyButton").addEventListener("click", function () {
         console.error('Error fetching data:', error);
         // Handle error here, for example, display an error message to the users
     });
-
+       
     // Timer initialization
     var timerDisplay = document.getElementById("timer");
     var timeLeft = 90;
@@ -522,29 +523,28 @@ document.getElementById("verifyButton").addEventListener("click", function () {
         var error = errors[randomErrorIndex];
     
         // Create a new div element
-        var newDiv = document.createElement("div");
-        newDiv.className = 'newDiv';
-    
+        
+        document.getElementById("newDiv").style.display = "block";
         // Create an image element
-        var img = document.createElement("img");
+        var img = document.getElementById("imgO");
         img.src = "./Img/error.png";
     
         // Create h3 element for error name
-        var nameHeader = document.createElement("h3");
+        var nameHeader = document.getElementById("title");
         nameHeader.textContent = error.name;
     
         // Create p element for error message
-        var messagePara = document.createElement("p");
+        var messagePara = document.getElementById("message");
         messagePara.textContent = error.message;
     
         // Create a "Retry" button
-        var retryButton = document.createElement("button");
+        var retryButton = document.getElementById("retry");
         retryButton.className = "retry";
         retryButton.textContent = "Retry";
         retryButton.addEventListener("click", function() {
             location.reload(); // Reload the page when the button is clicked
         });
-    
+        var newDiv = document.getElementById("newDiv");
         // Append elements to the new div
         newDiv.appendChild(img);
         newDiv.appendChild(nameHeader);
@@ -552,8 +552,8 @@ document.getElementById("verifyButton").addEventListener("click", function () {
         newDiv.appendChild(retryButton);
     
         // Append the new div to the offer container
-        var offerContainer = document.getElementById("offer");
-        offerContainer.appendChild(newDiv);
+        // var offerContainer = document.getElementById("offer");
+        // offerContainer.appendChild(newDiv);
     }
     countdown();
     var interval = setInterval(countdown, 1000);
