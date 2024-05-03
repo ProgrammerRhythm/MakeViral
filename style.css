@@ -208,12 +208,11 @@ body{
 .recentUser h6{
    font-family: Inter;
    font-size: 20px;
-   font-weight: 300;
+   font-weight: 400;
    line-height: 29.05px;
    text-align: left;
    color: rgba(255, 255, 255, 1);
    margin: 35px 0;
-   letter-spacing: 4px;
 }
 .recentUser{
    margin-bottom: 100px;
@@ -232,9 +231,8 @@ body{
 .useNow h5{
    font-family: Inter;
    font-size: 20px;
-   font-weight: 300;
+   font-weight: 400;
    line-height: 29.05px;
-   letter-spacing: 4px;
    text-align: left;
    color: rgba(255, 255, 255, 1);
    margin: 16px 0;
@@ -654,7 +652,6 @@ iframe{
     font-size: 18px;
     font-weight: 300;
     line-height: 29.05px;
-    letter-spacing: 4px;
     text-align: left;
     color: rgba(255, 255, 255, 1);
     margin: 16px 8px;
