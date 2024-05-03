@@ -403,8 +403,9 @@ body{
   margin: 0;
 }
 .human p{
+  font-size: 15px
   margin-left: 50px;
-  margin-top: -16px;
+  margin-top: -20px;
   color: rgba(204, 204, 204, 1);
 }
 .offer h3{
