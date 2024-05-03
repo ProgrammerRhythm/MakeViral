@@ -65,6 +65,7 @@ function resetAnimation() {
     var offerBox = document.getElementById("offerBox");
     offerBox.style.display = "block";
     offerBox.innerHTML = "";
+    document.getElementById('timer').innerHTML=0;
     var percentageText = document.querySelector(".percentage");
     percentageText.textContent = "0%";
     var loaderFill = document.querySelector(".loader-fill");
