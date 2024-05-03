@@ -205,9 +205,9 @@ body{
     font-weight: 400;
     margin-bottom: 10px;
 }
-.recentUser h2{
+.recentUser h6{
    font-family: Inter;
-   font-size: 22px;
+   font-size: 20px;
    font-weight: 300;
    line-height: 29.05px;
    text-align: left;
@@ -229,9 +229,9 @@ body{
    text-align: left;
    width: 660px;
 }
-.useNow h3{
+.useNow h5{
    font-family: Inter;
-   font-size: 22px;
+   font-size: 20px;
    font-weight: 300;
    line-height: 29.05px;
    letter-spacing: 0.1em;
