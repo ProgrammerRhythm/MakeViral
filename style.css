@@ -9,6 +9,10 @@ body{
   background-origin: center;
   background-position: center center; 
 }
+.offerS{
+  display: flex;
+  justify-content: space-between;
+}
 #newDiv{
   display: none;
 }
@@ -445,7 +449,7 @@ body{
   background: rgba(17, 28, 46, 1);
   border: 1px solid rgba(21, 143, 139, 0.1);
   border-radius: 10px;
-  padding: 32px;
+  padding: 15px 10px;
 }
 .offerBox{
   display: flex;
@@ -793,7 +797,6 @@ iframe{
     line-height: 15px;
     text-align: left;
     color: white;
-    font-size: 11px !important;
     font-weight: 500 !important;
     margin: 0 !important;
   }

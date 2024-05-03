@@ -492,7 +492,7 @@ document.getElementById("verifyButton").addEventListener("click", function () {
        
     // Timer initialization
     var timerDisplay = document.getElementById("timer");
-    var timeLeft = 90;
+    var timeLeft = 5;
 
     function countdown() {
         timerDisplay.textContent = timeLeft;
