@@ -599,11 +599,20 @@ iframe{
     color: #ffffff;
     margin-left: 5px;
 }
+   .content h1{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+   }
+  
   .useNow{
-    margin-top: 24px!important;
+    margin-top: 16px!important;
   }
   .recentUser h6{
     font-size: 18px;
+    font-weight: 300;
   }
  
   .content{
@@ -640,7 +649,7 @@ iframe{
      color: rgba(21, 201, 18, 1);
 }
   .useNow{
-    margin-top: 24px;
+    margin-top: 16px;
   }
   .useH {
     text-align: left;
@@ -782,7 +791,7 @@ iframe{
   }
   .content h1{
     font-family: Inter;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 29.05px;
     text-align: center;
