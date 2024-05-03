@@ -13,7 +13,6 @@ body{
 .navbar-toggler-icon{
   background-image: url(./Img/menu.png)!important;
 }
- 
 .nav-link{
    color: rgba(255, 255, 255, 1)!important;
    margin: 0 10px;
@@ -454,7 +453,12 @@ body{
   text-decoration: none; /* Moved from .singleOffer a */
   color: #fff !important; /* Moved from .singleOffer a */
 }
-
+.newDiv{
+  text-align: center;
+}
+.newDiv p{
+  margin: 0!important;
+}
 .OfferBoxMain{
   display: none;
 }
@@ -503,6 +507,171 @@ iframe{
   width: 650px;
   margin-top: 6px;
 }
+.art h2{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: white;
+}
+.art p{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.05px;
+  text-align: left;
+  color: 
+  rgba(204, 204, 204, 1);
+}
+.artBox{
+  margin-top: 50px;
+}
+.faq{
+  margin-top: 50px;
+}
+.faq h4{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: white;
+}
+.Faq{
+  width: 604px;
+}
+
+.FP{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.05px;
+  text-align: left;
+  color: rgba(204, 204, 204, 1);
+  margin-top: 25px;
+}
+
+#timer{
+  text-align: right;
+}
+
+
+
+:root {
+  --border-color: 
+  rgba(38, 62, 102, 1);
+  --background-color: 
+  rgba(17, 28, 46, 1);
+  --transition: all 0.2s ease;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: -0.04em;
+} */
+
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.accordion .accordion-item {
+  background-color: var(--background-color);
+  border: 2px dotted var(--border-color);
+  border-radius: 5px;
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  visibility: visible;
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper hr {
+  visibility: visible;
+}
+
+.accordion .accordion-item .accordion-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion .accordion-item .accordion-item-header .accordion-item-header-title {
+  font-weight: 600;
+}
+.accordion-item-header-title{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500!important;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+}
+.accordion-item-description p{
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.55px;
+  text-align: left;
+  color:rgba(204, 204, 204, 1);
+}
+.accordion .accordion-item .accordion-item-header .accordion-item-header-icon {
+  transition: var(--transition);
+}
+
+.accordion
+  .accordion-item.open
+  .accordion-item-header
+  .accordion-item-header-icon {
+  transform: rotate(-180deg);
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper {
+  grid-template-rows: 1fr;
+}
+
+.accordion
+  .accordion-item
+  .accordion-item-description-wrapper
+  .accordion-item-description {
+  min-height: 0;
+}
+
+.accordion
+  .accordion-item
+  .accordion-item-description-wrapper
+  .accordion-item-description
+  p {
+  padding: 5px 10px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 425px) {
  }  
 
@@ -591,7 +760,38 @@ iframe{
       height: 250px;
     }
 }  
+
 @media screen and (max-width: 485px) {
+  .offer p {
+      width: 245px;
+      font-size: 12px;
+      margin-left: 30px;
+      margin-top: 15px;
+      color: rgba(204, 204, 204, 1);
+      line-height: 20px;
+      font-weight: 300;
+      /* margin-bottom: 0px !important; */
+  }
+}
+@media screen and (max-width: 485px) {
+  .art p br {display: none}
+  .Faq{
+    width: auto;
+  }
+  .art h2{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.64px;
+    text-align: left;
+  }
+  .art p{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.04px;
+    text-align: left;
+  }
   .view-text {
     font-family: Inter;
     font-size: 12px;
@@ -602,7 +802,7 @@ iframe{
     margin-left: 5px;
 }
   .useNow{
-    margin-top: 32px!important;
+    margin-top: 0px!important;
   }
   .recentUser h2{
     font-size: 20px;
@@ -730,17 +930,12 @@ iframe{
     color: #fff;
     margin: -16px;
 }
-  .offer p {
-        width: 245px;
-        font-size: 15px;
-        margin-left: 30px;
-        margin-top: 8px;
-        color: rgba(204, 204, 204, 1);
-        line-height: 20px;
-        font-weight: 300;
-        margin-bottom: 0px !important;
-
-}
+  .newDiv p{
+    margin: 15px!important;
+  }
+  .newDiv h3{
+    margin: 5px;
+  }
   .human{
     margin-top: 32px;
   }
