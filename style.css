@@ -606,7 +606,8 @@ iframe{
     line-height: 29.05px;
     text-align: center;
    }
-  
+  .useNow{
+    margin-top: 16px!important;
 
   }
   .recentUser h6{
