@@ -602,9 +602,9 @@ iframe{
     margin-left: 5px;
 }
   .useNow{
-    margin-top: 32px!important;
+    margin-top: 24px!important;
   }
-  .recentUser h2{
+  .recentUser h6{
     font-size: 20px;
   }
  
@@ -642,19 +642,19 @@ iframe{
      color: rgba(21, 201, 18, 1);
 }
   .useNow{
-    margin-top: 50px;
+    margin-top: 24px;
   }
   .useH {
     text-align: left;
     width: 350px;
     
   }
-   .useNow h3 {
+   .useNow h5 {
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 29.05px;
-    letter-spacing: 0.1em;
+    letter-spacing: 4px;
     text-align: left;
     color: rgba(255, 255, 255, 1);
     margin: 16px 8px;
