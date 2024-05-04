@@ -428,9 +428,9 @@ body{
   margin: 0;
 }
 .human p{
-  font-size: 14px;
-  margin-left: 32px;
-  margin-top: -16px;
+  font-size: 16px;
+  margin-left: 0px;
+  margin-top: -12px;
   color: rgba(204, 204, 204, 1);
 }
 .offer h3{
