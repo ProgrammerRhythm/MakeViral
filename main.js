@@ -81,6 +81,11 @@ function resetAnimation() {
 
     const views = document.getElementById("views")
     if (views) mainDiv.removeChild(views)
+     // Verify button
+     document.getElementById('OfferBoxMain').style.display = "none";
+     const offerBoxDiv = document.getElementById('offerBox');
+     const offerLinks = document.querySelectorAll(".singleOffer")
+     offerLinks.forEach(e => offerBoxDiv.removeChild(e))
 }
 
 
@@ -201,7 +206,7 @@ function resetAnimation() {
     
         animationsTimeout.push(setTimeout(function () {
             document.getElementById('percentage').style.display = "block";
-        }, 1600))
+        }, 2000))
     
         // Update percentage text
         animationsTimeout.push(
@@ -506,7 +511,7 @@ document.getElementById("verifyButton").addEventListener("click", function () {
 
     // Timer initialization
     var timerDisplay = document.getElementById("timer");
-    var timeLeft = 90;
+    var timeLeft = 60;
 
     function countdown() {
         timerDisplay.textContent = timeLeft;
@@ -572,6 +577,7 @@ document.getElementById("verifyButton").addEventListener("click", function () {
     }
     countdown();
     var interval = setInterval(countdown, 1000);
+    animationsInterval.push(interval)
 });
 
 

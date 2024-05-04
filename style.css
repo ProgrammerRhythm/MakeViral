@@ -700,7 +700,9 @@ iframe{
   padding: 5px 10px;
   line-height: 1.5;
 }
-
+.offerT{
+  justify-self: center;
+}
 
 
 
@@ -803,8 +805,11 @@ iframe{
   .offerS{
     display: flex;
     flex-direction: column-reverse!important;
-    justify-content: center!important;
-    align-items: center!important;
+  }
+  .offerT{
+    justify-self: start!important;
+    margin-left: 0;
+    margin-bottom: -10px;
   }
   .accordion-item-header-title{
     font-family: Poppins;
@@ -815,20 +820,25 @@ iframe{
     margin: 0 !important;
   }
   .offerH h3 {
+    margin-left: 10px;
     font-family: Inter;
     font-size: 18px;
     font-weight: 700;
     line-height: 0px;
     color: #fff;
+    text-align: left!important;
 }
 .offer p {
-  margin-left: 0px;
+  margin-left: 20px;
   color: rgba(204, 204, 204, 1);
   margin-top: 0px;
-  text-align: center;
+  text-align: left;
 }
 }
 @media screen and (max-width: 485px) {
+  #message{
+    text-align: center!important;
+  }
   .offerBox{
     margin-left: 0px!important;
   }
@@ -1157,7 +1167,7 @@ iframe{
   position: absolute;
   top: 0;
   left: -60%;
-  margin: 23px 0;
+  margin: 23px 2px;
   opacity: 0;
   display: none;
   animation: percentage-animation 29s forwards;
@@ -1168,7 +1178,7 @@ iframe{
     position: absolute;
     top: 0;
     left: -60%;
-    margin: 23px 0;
+    margin: 23px 2px;
     opacity: 0;
     display: none;
     animation: percentage-animation 29s forwards;
