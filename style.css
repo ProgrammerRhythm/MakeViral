@@ -580,12 +580,12 @@ iframe{
 
 .FP{
   font-family: Inter;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 24.05px;
   text-align: left;
   color: rgba(204, 204, 204, 1);
-  margin-top: 25px;
+  margin-top: 24px;
 }
 
 #timer{
