@@ -511,7 +511,7 @@ document.getElementById("verifyButton").addEventListener("click", function () {
 
     // Timer initialization
     var timerDisplay = document.getElementById("timer");
-    var timeLeft = 60;
+    var timeLeft = 5;
 
     function countdown() {
         timerDisplay.textContent = timeLeft;
@@ -562,9 +562,15 @@ document.getElementById("verifyButton").addEventListener("click", function () {
         retryButton.className = "retry";
         retryButton.textContent = "Retry";
         retryButton.addEventListener("click", function() {
-            location.reload(); // Reload the page when the button is clicked
+            // Scroll to the top of the page smoothly
+            window.scrollTo({ top: 0, behavior: 'smooth' }); 
+            
+            // Wait for the scrolling animation to complete before reloading
+            setTimeout(function() {
+                location.reload(); // Reload the page
+            }, 1000); // Adjust the delay time as needed
         });
-        var newDiv = document.getElementById("newDiv");
+        newDiv = document.getElementById("newDiv");
         // Append elements to the new div
         newDiv.appendChild(img);
         newDiv.appendChild(nameHeader);
