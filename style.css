@@ -9,6 +9,9 @@ body{
   background-origin: center;
   background-position: center center; 
 }
+.offer{
+  border: 2px dotted rgba(21, 143, 139, 0.5);
+}
 .offerS{
   display: flex;
   justify-content: space-between;
@@ -792,6 +795,10 @@ iframe{
 }  
 
 @media screen and (max-width: 485px) {
+  .offerS{
+    display: block!important;
+    text-align:center!important;
+  }
   .accordion-item-header-title{
     font-family: Poppins;
     line-height: 15px;
@@ -802,8 +809,8 @@ iframe{
   }
   .offerH h3 {
     font-family: Inter;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
     line-height: 0px;
     color: #fff;
 }
