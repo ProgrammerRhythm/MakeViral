@@ -838,6 +838,7 @@ iframe{
 @media screen and (max-width: 485px) {
   #message{
     text-align: center!important;
+    font-size: 12px;
   }
   .offerBox{
     margin-left: 0px!important;
