@@ -486,8 +486,9 @@ body{
   text-align: center;
   margin: 48px;
 }
-.newDiv p{
-  margin: 0!important;
+.newDiv p {
+  margin: 0 !important;
+  font-size: 13px;
 }
 .OfferBoxMain{
   display: none;
