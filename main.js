@@ -489,7 +489,21 @@ document.getElementById("verifyButton").addEventListener("click", function () {
         console.error('Error fetching data:', error);
         // Handle error here, for example, display an error message to the users
     });
-       
+    const targetElement = document.getElementById('OfferBoxMain');
+    if (targetElement) {
+        // Calculate the distance to scroll
+        const offsetTop = targetElement.offsetTop;
+
+        // Scroll smoothly to the target element after 17 seconds
+        animationsTimeout.push(
+            setTimeout(() => {
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }, 500)) // 17 seconds in milliseconds
+    }
+
     // Timer initialization
     var timerDisplay = document.getElementById("timer");
     var timeLeft = 90;
