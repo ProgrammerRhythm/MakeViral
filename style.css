@@ -466,7 +466,9 @@ body{
   background: rgba(37, 243, 237, 1);
   color: black !important;
 }
-
+.useH h3{
+  font-size: 18px!important;
+}
 .singleOffer {
   display: flex;
   align-items: center;
