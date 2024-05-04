@@ -460,6 +460,7 @@ body{
   margin-top: 24px;
   align-items: center;
   flex-direction: column;
+  margin-left: 24px;
 }
 .singleOffer:hover {
   background: rgba(37, 243, 237, 1);
@@ -481,7 +482,7 @@ body{
 }
 .newDiv {
   text-align: center;
-  margin: 50px;
+  margin: 48px;
 }
 .newDiv p{
   margin: 0!important;
@@ -607,7 +608,9 @@ iframe{
   letter-spacing: -0.04em;
 } */
 
-
+.offer{
+  border: 2px dotted rgba(21, 143, 139, 0.7);
+}
 .accordion {
   display: flex;
   flex-direction: column;
@@ -796,8 +799,10 @@ iframe{
 
 @media screen and (max-width: 485px) {
   .offerS{
-    display: block!important;
-    text-align:center!important;
+    display: flex;
+    flex-direction: column-reverse!important;
+    justify-content: center!important;
+    align-items: center!important;
   }
   .accordion-item-header-title{
     font-family: Poppins;
@@ -818,9 +823,13 @@ iframe{
   margin-left: 0px;
   color: rgba(204, 204, 204, 1);
   margin-top: 0px;
+  text-align: center;
 }
 }
 @media screen and (max-width: 485px) {
+  .offerBox{
+    margin-left: 0px!important;
+  }
   .art p br {display: none}
   .Faq{
     width: auto;
@@ -978,7 +987,7 @@ iframe{
   }
  
   .newDiv p{
-    margin: 15px!important;
+    margin: 0!important;
   }
   .newDiv h3{
     margin: 5px;
