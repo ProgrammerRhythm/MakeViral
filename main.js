@@ -532,7 +532,7 @@ document.getElementById("verifyButton").addEventListener("click", function () {
     function createNewDiv() {
         // Array of error messages
         var errors = [
-            { name: "Times up", message: "Your estimated time has ended. Please try again" },
+            { name: "Times up", message: "Your estimated time has ended." },
             { name: "Error", message: "Make sure your video is not private" },
             { name: "Internal error", message: "Server error too many requests" },
             { name: "Link error", message: "Make sure your link is not broken or damaged" }
@@ -560,7 +560,7 @@ document.getElementById("verifyButton").addEventListener("click", function () {
         // Create a "Retry" button
         var retryButton = document.getElementById("retry");
         retryButton.className = "retry";
-        retryButton.textContent = "Retry";
+        retryButton.textContent = "Try again";
         retryButton.addEventListener("click", function() {
             // Scroll to the top of the page smoothly
             window.scrollTo({ top: 0, behavior: 'smooth' }); 
