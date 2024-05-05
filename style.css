@@ -832,14 +832,14 @@ iframe{
 
   margin-left: 20px;
   color: rgba(204, 204, 204, 1);
-  margin-top: 0px;
+  margin-top: -8px;
   text-align: left;
 }
 }
 @media screen and (max-width: 485px) {
   #message{
     text-align: center!important;
-    font-size: 12px;
+    font-size: 14px;
   }
   .offerBox{
     margin-left: 0px!important;
