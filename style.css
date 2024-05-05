@@ -442,9 +442,9 @@ body{
   margin: 0;
 }
 .offer p{
-  margin-left: 45px;
+  margin-left: 35px;
   color: rgba(204, 204, 204, 1);
-  margin-top: -4px;
+  margin-top: -8px;
 }
 .offer{
   width: 650px;
@@ -573,7 +573,7 @@ iframe{
 .faq h4{
   font-family: Poppins;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 30px;
   text-align: left;
   color: white;
@@ -615,7 +615,7 @@ iframe{
 } */
 
 .offer{
-  border: 2px dotted rgba(21, 143, 139, 0.7);
+  border: 1px dotted rgba(21, 143, 139, 0.1);
 }
 .accordion {
   display: flex;
@@ -836,14 +836,14 @@ iframe{
 
   margin-left: 20px;
   color: rgba(204, 204, 204, 1);
-  margin-top: 0px;
+  margin-top: -6px;
   text-align: left;
 }
 }
 @media screen and (max-width: 485px) {
   #message{
     text-align: center!important;
-    font-size: 12px;
+    font-size: 14px;
   }
   .offerBox{
     margin-left: 0px!important;
@@ -1023,6 +1023,9 @@ iframe{
   }
   .useNow{
     margin-top: 32px;
+  }
+  .FP{
+    font-size: 14px;
   }
 }  
 
