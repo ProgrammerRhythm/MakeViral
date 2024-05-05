@@ -521,6 +521,7 @@ document.getElementById("verifyButton").addEventListener("click", function () {
             clearInterval(interval);
             hideOfferBox();
             createNewDiv();
+            document.getElementById('complete').innerHTML = "Operation failed";
         }
     }
 

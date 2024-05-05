@@ -490,6 +490,9 @@ body{
   margin: 0 !important;
   font-size: 13px;
 }
+#complete{
+  margin-left: 35px;
+}
 .OfferBoxMain{
   display: none;
 }
