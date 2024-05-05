@@ -845,6 +845,10 @@ iframe{
     text-align: center!important;
     font-size: 14px;
   }
+#complete{
+  margin-left: 42px;
+  margin-top: -12px;
+         }
   .offerBox{
     margin-left: 0px!important;
   }
