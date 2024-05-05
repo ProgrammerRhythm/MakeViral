@@ -467,7 +467,7 @@ body{
   color: black !important;
 }
 .useH h3{
-  font-size: 18px!important;
+  font-size: 22px!important;
 }
 .singleOffer {
   display: flex;
@@ -572,7 +572,7 @@ iframe{
 }
 .faq h4{
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   line-height: 30px;
   text-align: left;
@@ -890,7 +890,7 @@ iframe{
     margin-top: 16px!important;
   }
   .recentUser h6{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
   }
  
