@@ -611,7 +611,7 @@ iframe{
 } */
 
 .offer{
-  border: 2px dotted rgba(21, 143, 139, 0.7);
+  border: 1px dotted rgba(21, 143, 139, 0.1);
 }
 .accordion {
   display: flex;
