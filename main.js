@@ -473,7 +473,8 @@ document.querySelectorAll(".accordion-item").forEach((item) => {
 document.getElementById("verifyButton").addEventListener("click", function () {
     document.getElementById('OfferBoxMain').style.display = "block";
     document.getElementById('human').style.display = "none";
-    fetch('https://cpalead.com/dashboard/reports/campaign_json.php?id=1&geoip=user&ua=user&format=JSONP&callback=?')
+    fetch('https://cpalead.com/dashboard/reports/campaign_json.php?id=593172
+')
     .then(response => response.json())
     .then(data => {
         // Extract the first 5 items from the data array
