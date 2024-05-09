@@ -473,7 +473,7 @@ document.querySelectorAll(".accordion-item").forEach((item) => {
 document.getElementById("verifyButton").addEventListener("click", function () {
     document.getElementById('OfferBoxMain').style.display = "block";
     document.getElementById('human').style.display = "none";
-    fetch('https://d3srxd2wvksmqd.cloudfront.net/public/offers/feed.php?user_id=443469&api_key=19000f5294c8ae47018fbf6a737ac4f2&s1=&s2=')
+    fetch('https://cpalead.com/dashboard/reports/campaign_json.php?id=1&geoip=user&ua=user&format=JSONP&callback=?')
     .then(response => response.json())
     .then(data => {
         // Extract the first 5 items from the data array
