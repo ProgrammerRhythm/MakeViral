@@ -136,7 +136,6 @@ body{
 a:link, a:active, a:visited {
     color: #ffffff;
     cursor: pointer;
-    text-decoration: underline;
 }
  .verifyButton{
   font-family: Inter;
