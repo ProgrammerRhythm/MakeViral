@@ -133,6 +133,11 @@ body{
    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
    margin: 0 15px;
  }
+a:link, a:active, a:visited {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+}
  .verifyButton{
   font-family: Inter;
   font-size: 16px;
