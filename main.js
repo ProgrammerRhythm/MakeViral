@@ -25,6 +25,7 @@ fetch('https://randomuser.me/api/?results=15')
             pT.className = 'time';
             h5.innerHTML = name;
             img.src = user.picture.thumbnail;
+            img.alt = 'Viraltiktok';
             pV.innerHTML = `${randomNumber2}k Views`;
             pT.innerHTML = `${randomNumber1} Sec Ago`;
 
