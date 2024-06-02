@@ -763,6 +763,7 @@ iframe{
 }
 @media screen and (max-width: 550px) {
    video{
+    margin-top: -24px;
     height: 220px;
     width: 340px;
   .searchBox {
@@ -793,6 +794,7 @@ iframe{
 @media screen and (max-width: 510px) {
 
    video{
+    margin-top: -24px;
     height: 220px;
     width: 340px;
      
@@ -821,6 +823,7 @@ iframe{
 
 @media screen and (max-width: 485px) {
   video{
+    margin-top: -24px;
     height: 220px;
     width: 340px;
   }
