@@ -71,7 +71,7 @@ body{
   /* rgba(255, 255, 255, 0.2) */
  }
 video{
-  height:400px; width:650px;
+  height:330px; width:650px;
 }
  .clicked{
   background: rgba(38, 38, 38, 0.1);
