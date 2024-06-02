@@ -70,7 +70,9 @@ body{
   border: 1px solid rgba(255,255,255,0.4);
   /* rgba(255, 255, 255, 0.2) */
  }
-
+video{
+  height:400px; width:650px;
+}
  .clicked{
   background: rgba(38, 38, 38, 0.1);
  }
@@ -810,6 +812,10 @@ iframe{
 }  
 
 @media screen and (max-width: 485px) {
+  video{
+    height: 200px;
+    width: auto;
+  }
   .offerS{
     display: flex;
     flex-direction: column-reverse!important;
