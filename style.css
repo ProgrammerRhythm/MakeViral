@@ -813,7 +813,7 @@ iframe{
 
 @media screen and (max-width: 485px) {
   video{
-    height: 200px;
+    height: 180px;
     width: 340px;
   }
   .offerS{
