@@ -67,7 +67,6 @@ body{
   width: 650px;
   height: 90px;
   border: 1px solid rgba(255,255,255,0.4);
-  /* rgba(255, 255, 255, 0.2) */
  }
 video{
   height:330px; width:650px;
@@ -211,7 +210,6 @@ a:link, a:active, a:visited {
    font-size: 12px;
    font-weight: 400;
    line-height: 16.94px;
-   /* text-align: left;    */
    color: #cccccc;
  }
 .col4 img{
@@ -224,7 +222,6 @@ a:link, a:active, a:visited {
    border-radius: 20px;
    opacity: 0px;
    padding: 10px;
-   /* padding: 25px 15px; */
 }
 .time{
    text-align: right;
@@ -294,30 +291,7 @@ a:link, a:active, a:visited {
    position: relative;
    overflow: hidden;
    padding: 5px;
-   animation: none; /* 
-   Initially no animation */
- }
- 
- .loader-fill {
-   height: 100%;
-   background: rgba(224, 228, 28, 1);
-   border-radius: 5px;
-   animation: fill-animation 30s forwards;
- }
- 
- @keyframes fill-animation {
-   0% {
-     width: 0%;
-   }
-   100% {
-     width: 98%;
-   }
- }
- 
- .percentage {
-   position: absolute;
-   top: 0;
-   left: -60%; /* Adjust the starting position */
+   animation: none; 
    margin: 12px;
    opacity: 0; /* Initially hidden */
    display: none;
@@ -611,14 +585,6 @@ iframe{
   --transition: all 0.2s ease;
 }
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "DM Sans", sans-serif;
-  letter-spacing: -0.04em;
-} */
-
 .offer{
   border: 1px dotted rgba(21, 143, 139, 0.1);
 }
@@ -712,14 +678,6 @@ iframe{
 .offerT{
   justify-self: center;
 }
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 425px) {
  }  
