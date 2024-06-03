@@ -951,6 +951,10 @@ iframe{
     width: 350px;
     
   }
+
+  .useH h3{
+    font-size: 18px;
+  }
    .useNow h3 {
     font-family: Inter;
     font-size: 18px;
