@@ -231,7 +231,7 @@ a:link, a:active, a:visited {
     font-weight: 400;
     margin-bottom: 10px;
 }
-.recentUser h6{
+.recentUser h5{
    font-family: Inter;
    font-size: 22px;
    font-weight: 600;
