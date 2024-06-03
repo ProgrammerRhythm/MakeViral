@@ -953,7 +953,7 @@ iframe{
   }
 
   .useH h3{
-    font-size: 18px;
+    font-size: 18px !important;
   }
    .useNow h3 {
     font-family: Inter;
