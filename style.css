@@ -896,8 +896,8 @@ iframe{
   .useNow{
     margin-top: 16px!important;
   }
-  .recentUser h6{
-    font-size: 22px;
+  .recentUser h3{
+    font-size: 18px;
     font-weight: 600;
   }
  
@@ -942,7 +942,7 @@ iframe{
     width: 350px;
     
   }
-   .useNow h5 {
+   .useNow h3 {
     font-family: Inter;
     font-size: 18px;
     font-weight: 300;
