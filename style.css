@@ -852,6 +852,15 @@ iframe{
     text-align: center!important;
     font-size: 14px;
   }
+
+  .faq h3{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+  }
 #complete{
   margin-left: 42px;
   margin-top: -12px;
