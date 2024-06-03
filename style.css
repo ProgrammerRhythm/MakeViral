@@ -852,7 +852,9 @@ iframe{
     text-align: center!important;
     font-size: 14px;
   }
-
+.searchInput {
+  font-size: 14px;
+}
   .faq h3{
     font-family: Poppins;
     font-size: 18px;
@@ -986,7 +988,7 @@ iframe{
       text-align: center;
     }
     .searchButton2{
-      width: 300px;
+      width: 400px;
     }
     .custom-loader{
       width: 415px;
